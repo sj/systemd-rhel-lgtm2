@@ -1,0 +1,8 @@
+extraction:
+  cpp:
+    configure:
+      command:
+        - ./autogen.sh
+        - ./configure --disable-timesyncd --disable-kdbus --disable-terminal
+                      --enable-gtk-doc --enable-compat-libs --disable-sysusers
+                      --disable-ldconfig --enable-lz4
