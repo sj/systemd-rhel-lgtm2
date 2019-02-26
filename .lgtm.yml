@@ -5,4 +5,4 @@ extraction:
         - ./autogen.sh
         - ./configure --disable-timesyncd --disable-kdbus --disable-terminal
                       --disable-gtk-doc --disable-manpages --disable-gtk-doc-html --enable-compat-libs --disable-sysusers
-                      --disable-ldconfig --enable-lz4
+                      --disable-ldconfig --enable-lz4 --disable-microhttpd
